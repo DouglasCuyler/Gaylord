@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">MeetingPlay</string>
+    <string name="baseurl">http://setup.meetingplay.com/index.cfm/api-mp-application/validateEmailPin/</string>
+    <string name="url"> </string>
+
+</resources>

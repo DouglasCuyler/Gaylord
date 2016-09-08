@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Help"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayoutid"
+    android:orientation="vertical"
+    android:background="@drawable/help1">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6.6">
+    </View>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.92"
+        android:id="@+id/btn_back"
+        android:background="#259b3e"
+        android:text="Got It!"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textSize="@dimen/abc_text_size_medium_material" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.44">
+    </View>
+
+</LinearLayout>
